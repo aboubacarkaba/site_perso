@@ -1,0 +1,42 @@
+header {
+  width: 100%;
+  background: linear-gradient(to right, rgb(88, 81, 13), rgb(189, 181, 71));
+  .logo{
+    height: 100px;
+    border-radius : 50%;
+    &:hover {
+    -webkit-animation: jello-horizontal 0.9s both;
+	animation: jello-horizontal 0.9s both;
+    }
+  }
+  .menu_nav{
+      height: 30px;
+  }
+  .mood{
+      font-family: cursive;
+      color: white;
+      text-align: center;
+  }
+
+  nav.menu_nav ul li.btn {
+    list-style-type: none;
+    display: inline;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+   
+  }
+  nav.menu_nav ul li.btn a{
+
+      text-decoration: none;
+      color:white;
+      padding: 10px;
+      background-color: #53410680;
+      border-radius: 10px;
+      &:hover{
+          color: #665007f1;
+          background-color: rgb(218, 209, 132);
+      }
+      
+      
+  }
+}
